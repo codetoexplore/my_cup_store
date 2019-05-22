@@ -4,7 +4,8 @@
                 max-width="290"
             >
               <v-card>
-                <v-img :src="require('../assets/cups/mockup_donald.jpg')">
+                <v-img :src="require(`../assets/cups/mockup_${this.tweet}.jpg`)">
+    
                 </v-img>
 
                 
