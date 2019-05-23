@@ -38,7 +38,7 @@
        class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title> 
         <v-icon left>local_cafe</v-icon>
-        <router-link to="/" style="cursor: pointer"><span class="white--text">MugTweet</span></router-link>
+        <router-link to="/" style="cursor: pointer" ><span class="white--text">MugTweet</span></router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">

@@ -57,7 +57,6 @@ export default {
                 eventBus.$emit('sendLink');
             }else {
                 eventBus.$emit('updatedlink',this.query);
-                console.log('stepper comp '+this.query)
 
             }
         },

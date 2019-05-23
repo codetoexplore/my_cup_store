@@ -42,8 +42,8 @@
                 <input name="postal_code" class="field" placeholder="RG20DJ" v-model="postcode">
               </label>
             </div>
-            <div 
-            <!--- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     ---->
+          
+            
             <label class="select">
               <span>Country</span>
               <div id="country" class="field US">
@@ -106,7 +106,6 @@ export default {
   created() {
     eventBus.$on('updatedlink', (data) => { 
         this.thelink = data;
-        console.log('Address comp '+this.thelink);
       }),
     eventBus.$on('sendinfo', () => {
   

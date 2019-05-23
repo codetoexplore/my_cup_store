@@ -147,7 +147,6 @@
               this.shippingAddressstate = myinput[4];
               this.postal_code = myinput[5];
               this.metadata['mylink'] = myinput[6];
-              console.log('PForm Metadata '+this.metadata['mylink'])
               
     
             });
