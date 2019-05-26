@@ -57,10 +57,10 @@ import { eventBus } from '../main';
         items: [
           { header: 'All Time' },
           {
-            avatar: 'https://pbs.twimg.com/profile_images/1096031894041284609/Wb77WUdv_400x400.jpg',
-            title: 'Katy Perry',
-            handle: '@kattyperry',
-            subtitle: `I LOVE MY MOM`
+            avatar: 'https://pbs.twimg.com/profile_images/1112033582569136128/0vZG4q0Y_bigger.jpg',
+            title: 'nope',
+            handle: '@LilNasX',
+            subtitle: `my music taste is crazy i can go from old town road`
           },
           { divider: true, inset: true },
           {
@@ -96,7 +96,6 @@ import { eventBus } from '../main';
     methods: {
       showmug(parent_el) {
         dialog = false;
-        console.log(parent_el)
         
       },
       displaydialog(itemhandle) {
