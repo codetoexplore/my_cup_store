@@ -1,6 +1,6 @@
 <template>
 
-    <v-stepper v-model="e6" vertical class="stepper">
+    <v-stepper v-model="e6" vertical class="stepper mx-5">
                 <v-stepper-step :complete="e6 > 1" step="1" id="id1">Select Your Tweet
                     <!-- <small>Tweet Selected</small> -->
                     </v-stepper-step>
